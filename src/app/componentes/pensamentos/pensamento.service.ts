@@ -23,7 +23,7 @@ export class PensamentoService {
       params = params.set('q', filtro);
     }
 
-    if (favoritos) {
+    if (favoritos === true) {
       params = params.set('favorito', true);
     }
 

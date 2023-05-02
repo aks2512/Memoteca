@@ -32,6 +32,7 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   carregarMaisPensamentos() {
+    console.log('teste')
     this.service.listar(++this.paginaAtual, this.filtro, this.favoritos)
       .subscribe(listaPensamentos => {
         this.listaPensamentos.push(...listaPensamentos);
@@ -61,8 +62,10 @@ export class ListarPensamentoComponent implements OnInit {
   listarFavoritos() {
     this.titulo = 'Meus Favoritos';
     this.haMaisPensamentos = true;
-    this.paginaAtual = 1
+    this.paginaAtual = 1;
+    this.favoritos = true;
     this.service.listar(this.paginaAtual, this.filtro, this.favoritos).subscribe((listaFavoritos) => {
+      this.listaPensamentos = listaFavoritos;
       this.listaFavoritos = listaFavoritos;
     });
   }
