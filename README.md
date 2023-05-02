@@ -1,27 +1,20 @@
 # Memoteca
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Esse é um projeto desenvolvido  durante o curso da alura Angular 14: evoluindo a aplicação, que passa toda base introdutória do vue e suas funcionalidades.
 
-## Development server
+<img src="./screenshot.png" alt="Screenshot da pagina do Memoteca"/>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Link do Projeto
+[Para acessar o link do projeto clique aqui](https://memoteca-delta.vercel.app/listarPensamento/)
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-Angular 14
 
-## Build
+## Instalação 
+- Precisara instalar global mente o json server `npm install -g json-server`
+- Utilize o `npm install` para instalar as dependências do projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Utilização
+- Utilize o comando npm start na pasta /backend para rodar o json server
+- Utilize o comando ng serve serve para rodar o projeto
