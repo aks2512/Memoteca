@@ -63,7 +63,7 @@ export class CriarPensamentoComponent implements OnInit {
   }
 
   habilitarBotao(): string {
-    return this.formulario.valid ? 'botao' : 'botao botao__desabilitado';
+    return this.formulario.valid ? 'botao' : 'botao__desabilitado';
   }
 
 }

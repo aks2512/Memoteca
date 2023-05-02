@@ -84,7 +84,7 @@
       <button
         [disabled]="!formulario.valid"
         (click)="criarPensamento()"
-        ngClass="habilitarBotao()"
+        [ngClass]="habilitarBotao()"
       >
         Salvar
       </button>
